@@ -15,6 +15,5 @@ jobs:
           nix_path: nixpkgs=channel:nixos-22.05
 
       # TODO Build using Nix
-      - name : "build with nix"
-        uses : nix-build
+      - uses : nix-build
 
